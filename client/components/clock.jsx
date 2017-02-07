@@ -15,6 +15,6 @@ export default class Clock extends React.Component {
     }.bind(this), 100);
   }
   render () {
-    return <div className="clock"> {this.state.time}</div>;
+    return <div className={this.props.classes}> {this.state.time}</div>;
   }
 }
