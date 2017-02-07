@@ -43,8 +43,10 @@ body, html {
   height: 50%;
   background: yellow;
 }
-.d1 {
+.m1 {
   margin-left: 7%;
+}
+.d1 {
   background: pink;
   color: navy;
 }
