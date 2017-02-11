@@ -9,7 +9,7 @@ export default class CLockList extends React.Component {
 
             <div className="clockList">
             <div className="clockDesign d1 m1" onClick={this.props.clockSelect}>00:00:00</div>
-            <div className="clockDesign d2" onClick={this.props.clockSelect}>00:00:00</div>
+            <div className="clockDesign d2" ><a className="oauth">00:00:00</a></div>
             <div className="clockDesign d3" onClick={this.props.clockSelect}>00:00:00</div>
             <div className="clockDesign d4" onClick={this.props.clockSelect}>00:00:00</div>
             <div className="clockDesign d5" onClick={this.props.clockSelect}>00:00:00</div>
